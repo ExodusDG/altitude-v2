@@ -14456,8 +14456,8 @@ html:not(.wf-icomoon-n4-active) .admin_interface_page_header-breadcrumb::after {
 }
 
 .api_overview .section-2_col_wrapper {
-    align-items: flex-start;
-    margin-bottom: 7vw;
+    align-items: center;
+    margin-bottom: 0vw;
 }
 
 .api_overview .section-2_col_cell--image {
@@ -14468,13 +14468,13 @@ html:not(.wf-icomoon-n4-active) .admin_interface_page_header-breadcrumb::after {
     position: relative;
     left: 0;
     right: -8vw;
-    top: -18vw;
+    top: 0;
     margin: 0;
 }
 
 @media (min-width: 1400px) {
     .api_overview .image_container--api_overview {
-        right: -10vw;
+        right: 0;
     }
 }
 
