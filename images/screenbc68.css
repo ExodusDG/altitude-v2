@@ -2892,7 +2892,7 @@ figure {
 @media (min-width: 1400px) {
     .vert_pad--match_content_wrapper {
         padding-top: 9.5vw;
-        padding-bottom: 9.5vw;
+        padding-bottom: 3.5vw;
     }
 }
 
@@ -2912,7 +2912,7 @@ figure {
 @media (min-width: 1650px) {
     .vert_pad--match_content_wrapper {
         padding-top: 164px;
-        padding-bottom: 164px;
+        padding-bottom: 50px;
     }
 }
 
@@ -14461,11 +14461,11 @@ html:not(.wf-icomoon-n4-active) .admin_interface_page_header-breadcrumb::after {
 }
 
 .api_overview .section-2_col_cell--image {
-    height: 100px;
+    height: auto;
 }
 
 .api_overview .image_container--api_overview {
-    position: absolute;
+    position: relative;
     left: 0;
     right: -8vw;
     top: -18vw;
@@ -14480,11 +14480,12 @@ html:not(.wf-icomoon-n4-active) .admin_interface_page_header-breadcrumb::after {
 
 @media (min-width: 1650px) {
     .api_overview .section-2_col_wrapper {
-        margin-bottom: 116px;
+        margin-bottom: 0px;
+        align-items: center;
     }
     .api_overview .image_container--api_overview {
-        top: -297px;
-        right: -165px;
+        top: 0;
+        right: 0;
     }
 }
 
