@@ -34435,3 +34435,25 @@ body:not(.doc_ready) .hero_collage_button--right {
 .reviewAuthorText {
     font-weight: 600;
 }
+
+#lottie-header {
+    width: 600px;
+}
+
+.content_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .content_wrapper {
+        flex-direction: column;
+    }
+    .landing_hero_container--home .landing_hero_content {
+        padding-bottom: 100px;
+    }
+    #animation-container {
+        width: 100% !important height: 100% !important
+    }
+}
